@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+/* ................default css end....... */
+
+            /*.......header csss..........  */
+.header{
+    width: 100%;
+    height:95vh;
+    background-image:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.5)60%,rgba(0,0,0,0.8)100%),url(https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: center;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+  width: 200px;
+  cursor: pointer;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+}
+nav button{
+    border: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    display: inline-block;
+    gap: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right:70px;
+    margin-top: 30px;
+}
+.container button{
+    margin-right: 40px;
+}
+.langicon{
+    position: absolute;
+    margin-top: 35px;
+    color:white;
+    padding:5px;
+}
+.drop{
+    position: relative;
+    background:transparent;
+    border: 1px solid white;
+    padding: 8px 20px;
+    border-radius: 3px;
+    color:white;
+    width: 110px;
+option{
+    color: #000;
+}
+}
+select{
+    color: #fff;
+}
+.hcontent{
+  width: 100%;
+  height: 100%;
+  margin-top: 200px;
+  background-color: rgba(18, 18, 18, 0.2);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  h1{
+    margin: 0;
+    font-size:3rem;
+    font-weight: 900;
+}
+h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.2rem;
+}
+}
+.signup{
+    display:flex;
+}
+.signup input{
+    border: 1px solid white;
+    margin-right: 10px;
+    width: 410px;
+    height: 50px;
+    background:transparent;
+    border-radius: 5px;
+    padding-left: 15px;
+    color: white;
+    font-weight: 600;
+    font-size:20px;
+    background: #000;
+    opacity: 0.4;
+input:hover{
+    opacity: 0.9;
+    border: 2px solid white;
+}}
+.signup button{
+    background: #db0001;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-weight:300;
+    font-size:larger;
+    cursor: pointer;
+    padding: 15px 15px;
+button:hover{
+    opacity: 0.9;
+    background: transparent;
+    border: 1px solid white;
+}}
+
+    /* ...........cards css................ */
+
+.card-4,
+.card-1,
+.card-2,
+.card-3{
+    border-top:8px solid rgb(69,69,69) ;
+    padding: 50px;
+    background: #000;
+}
+.style-cards h1{
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+.style-cards h3{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+            /* ............card-4 css...........start */
+.card-4{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+.desc-4{
+    padding-left: 100px;
+}
+          /* ..........card1 css........ */
+.card-1{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+.desc-1{
+    padding-left: 80px;
+}
+.video1{
+    position:absolute;
+    bottom: 19.7%;
+    left:80px;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: 0;
+}
+.card-1 img{
+    width: 110%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: 5;
+    position: relative;
+}
+       /* .........card2 css............. */
+.card-2{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+.desc-2{
+    padding-left: 100px;
+}
+.box{
+    display: flex;
+    position:absolute;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 320px;
+    height: 90px;
+    margin-left: 205px;
+    margin-top: 280px;
+    background: #000;
+    img{
+        padding: 5px;
+    }
+    h4{
+        
+      padding-top: 20px;  
+    }
+    p{
+     color: darkblue;
+    }
+  .download{
+    padding-left: 50px;
+}}
+.imagemobile{
+    position: relative;
+}
+         /* ...........card3 css........ */
+.card-3{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px; 
+}
+.desc-3{
+    padding-left: 80px;
+    padding-right: 20%;
+}
+.card-3 img{
+    width: 110%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: 5;
+}
+.card-3 video{
+    position: relative;
+    top: -87px;
+    left: 125px;
+    width: 65%;
+    height: 78%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: 0;
+}
+      /*........... questions css.............. */
+
+.last{
+    background: #000;
+    border-top:8px solid rgb(69,69,69);
+    font-size: xx-large;
+    text-align: center;
+}
+
+.freq h1{
+    padding-bottom: 40px;
+    font-size: 3rem;
+    padding-top: 100px;
+}
+.Questions i{
+    filter: brightness(0) invert(1);
+}
+.Questions{
+display:flex;
+justify-content: space-between;
+flex-direction: column;
+flex-basis: 40%;
+align-items: center;
+}
+.Questions div{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 1.5rem;
+    list-style: none;
+    background: rgb(69,69,69);
+    color: white;
+    text-align: left;
+    width: 70%;
+    height: 90px; 
+    opacity: 0.7;
+}
+.Questions div:hover{
+    background: rgb(75,85,75);
+}
+.pq{
+    padding-top: 40px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+.signup2{
+    display:flex;
+    padding-bottom: 100px;
+}
+.signup2 input{
+    border: 1px solid white;
+    margin-right: 10px;
+    width: 400px;
+    height: 60px;
+    background:transparent;
+    border-radius: 5px;
+    padding-left: 15px;
+    color: white;
+    font-weight: 600;
+    font-size:20px;
+    background: rgb(69,69,69);
+    opacity: 0.4;
+    margin-left: 10px;
+}
+input:hover{
+    opacity: 0.9;
+    border: 2px solid white;
+}
+.signup2 button{
+    background: #db0001;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-weight:300;
+    font-size:large;
+    height: 60px;
+    cursor: pointer;
+    padding: 15px 15px;
+}
+button:hover{
+    opacity: 0.9;
+    background: transparent;
+    border: 1px solid white;
+}
+       /* ..........footer css..... */
+
+.foot{
+    overflow: auto;
+    background: #000;
+    border-top:8px solid rgb(69,69,69) ;
+}
+.call{
+    text-decoration: underline;
+}
+.foot a{
+    color: #fff;
+    opacity: 0.9;
+    font-size: 0.9rem;
+}
+.foot p{
+    margin-bottom: 1rem;
+    margin-top: 60px;
+    margin-left: 200px;
+    font-size: larger;
+}
+.foot-lists{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 400px 0px 200px;
+}
+.foot li{
+    line-height:3;
+    list-style: none;
+}
+.footdrop1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    background: rgb(69,69,69);
+    opacity: 0.5;
+    border: 1px solid white;
+    padding: 7px 10px;
+    border-radius: 3px;
+    color: white;
+}
